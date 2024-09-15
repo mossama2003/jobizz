@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:jobizz/core/constants/app_images.dart';
+import 'package:jobizz/core/constant/app_assets.dart';
 
 import '../style/app_colors.dart';
 
@@ -97,7 +97,7 @@ class _CustomTextNumberFormFieldState extends State<CustomTextNumberFormField> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 DropdownButton<String>(
-                  icon: SvgPicture.asset(AppImages.downArrow),
+                  icon: SvgPicture.asset(AppIcons.downArrow),
                   value: _selectedCountryCode,
                   items: _countryCodes
                       .map<DropdownMenuItem<String>>((dynamic value) {

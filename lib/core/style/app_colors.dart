@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color white = Colors.white;
+  static const Color scaffold = Color(0xffF3F3F3);
+
+  static const Color shimmerLoading = Color(0xffCCCCCC);
+
+  static const Color white = Color(0xffffffff);
 
   static const Color primaryColor = Color(0xFF356899);
 
